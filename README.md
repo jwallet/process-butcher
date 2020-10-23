@@ -3,12 +3,12 @@ service worker in .net core that terminates a process based on a relation master
 for instance, the torrent app (slave) is killed if the vpn (master) was terminated or died. 
 
 windows
-```(shell)
+```applescript
 > process-butcher.exe --master=nordvpn --slave=utorrent
 ```
 
 linux/macos
-```(shell)
+```applescript
 > process-butcher --master=nordvpn --slave=utorrent
 ```
 
