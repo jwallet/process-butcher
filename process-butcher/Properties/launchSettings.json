@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "process_butcher": {
+      "commandName": "Project",
+      "commandLineArgs": "--torrent=utorrent --vpn=nordvpn",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

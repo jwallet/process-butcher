@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-process_butcher-4D4F2DD7-FFD4-4D35-A978-52A40B1729A0</UserSecretsId>
+    <RootNamespace>process_butcher</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.8" />
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="3.1.1" />
+  </ItemGroup>
+</Project>
